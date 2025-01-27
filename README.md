@@ -1,2 +1,0 @@
-# PixelSnake
-my game
