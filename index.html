@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pixel Snake Web</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Pixel Snake Web</h1>
+  <!-- 游戏画面所在的 canvas -->
+  <canvas id="gameCanvas"></canvas>
+
+  <!-- 游戏结束界面（默认隐藏），点击 R 或 Q -->
+  <div id="gameOverOverlay">
+    <div id="gameOverBox">
+      <h2>Game Over!</h2>
+      <p id="scoreDisplay"></p>
+      <p>Press <strong>R</strong> to Restart<br/>Press <strong>Q</strong> to Quit</p>
+    </div>
+  </div>
+
+  <!-- 引入核心脚本 -->
+  <script src="script.js"></script>
+</body>
+</html>
