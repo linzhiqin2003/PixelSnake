@@ -6,7 +6,7 @@ const GRID_WIDTH = 20;
 const GRID_HEIGHT = 15;
 const CANVAS_WIDTH = CELL_SIZE * GRID_WIDTH;
 const CANVAS_HEIGHT = CELL_SIZE * GRID_HEIGHT;
-const FPS = 5;  // 帧率
+const FPS = 10;  // 帧率
 
 // 跟之前的颜色对应（RGB）
 const COLORS = {
